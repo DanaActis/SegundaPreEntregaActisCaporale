@@ -1,0 +1,83 @@
+html {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  letter-spacing: 3px;
+  font-weight: 200;
+}
+
+body {
+  padding: 0;
+}
+
+section {
+  background-image: url(../assets/pictures/section/top-view-of-roasted-coffee-beans-isolated-on-white-background-with-copy-space.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+header {
+  background-image: url(../assets/pictures/header/cafe_en_grano_vs_molido_blog.jpg);
+  height: 15rem;
+  background-size: cover;
+}
+
+.pie_de_pagina {
+  text-align: center;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+footer {
+  margin-bottom: 0;
+  background-size: cover;
+  background-image: url(../assets/pictures/footer/img_mouseover3.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+
+  & h2 {
+    color: rgb(249, 249, 249);
+    padding: 5rem;
+    margin: auto;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+
+  & p {
+    padding-bottom: 1rem;
+  }
+
+  & .redes {
+    & a {
+      text-decoration: none;
+    }
+
+    & img {
+      width: 30px;
+    }
+  }
+}
+
+.input {
+  label {
+    input {
+      color: rgb(26, 170, 170);
+      width: 400px;
+      text-align: center;
+      padding: 1rem;
+      font-size: 18px;
+      margin: 2rem;
+      border-style: none;
+    }
+  }
+}
+
+.boton:hover {
+  transform: scale(1.2);
+}
+
+.send {
+  margin-bottom: 1rem;
+}

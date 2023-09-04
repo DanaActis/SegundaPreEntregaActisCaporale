@@ -1,0 +1,59 @@
+$colorFondoTitulo: rgba(201, 178, 152, 0.4);
+
+@mixin fondoTitulo {
+  border-radius: 10px;
+  background-color: $colorFondoTitulo;
+  width: 90%;
+  max-width: 400px;
+  color: black;
+  margin: auto
+
+}
+
+.titulo {
+  @include fondoTitulo;
+
+  & h1 {
+    margin-bottom: 2rem;
+    font-size: 3rem;
+    text-decoration: underline;
+  }
+
+  & h1 {
+    align-items: center;
+    text-align: center;
+    padding-top: 1rem;
+  }
+
+  & p {
+    margin-bottom: 4rem;
+  }
+}
+
+.titulo-blog {
+
+  @include fondoTitulo;
+
+  & h4 {
+  background-color: $colorFondoTitulo;
+  padding-top: 2rem;
+  font-size: 25px;
+  color: black;
+  text-align: center;
+  font-weight: bold;
+  font-size: xx-large;
+  }
+}
+
+
+.subtitulo {
+
+h4 {
+  margin: auto;
+  text-align: center;
+  padding: 2rem;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+}

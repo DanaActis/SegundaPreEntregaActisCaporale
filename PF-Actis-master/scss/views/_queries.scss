@@ -1,0 +1,43 @@
+@media (min-width: 320px) and (max-width: 900px) {
+  .fonts-white {
+    margin: 0;
+    font-size: 20px;
+  }
+
+  .contact {
+    padding: 5px 10px;
+    width: 100%;
+    margin: auto;
+    border-radius: 10px;
+    letter-spacing: 0px;
+  }
+
+  .contenedor_imagenes {
+    padding: 5px 10px;
+    width: 100%;
+    margin: auto;
+    border-radius: 10px;
+    letter-spacing: 0px;
+  }
+
+  .contact p {
+    padding: 0;
+  }
+  .input label input {
+    width: 250px;
+    font-size: 14px;
+  }
+
+  .blog {
+    margin: auto;
+    width: 100%;
+    line-height: 1.2rem;
+    margin-left: 0%;
+    font-size: 14px;
+  }
+
+  .titulo-blog {
+    font-weight: bold;
+    font-size: 25px;
+  }
+}

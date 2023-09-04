@@ -1,0 +1,32 @@
+.navegacion {
+  padding-top: 7.5px;
+  padding-bottom: 7.5px;
+  background-color: rgba(0, 0, 0, 0.7);
+  text-align: right;
+  align-items: flex-end;
+  list-style: none;
+  margin: auto;
+
+  & li a {
+    transition: all 0.3s;
+    border-radius: 10px;
+    text-decoration: none;
+    color: whitesmoke;
+    padding: 20px;
+    display: block;
+    font-weight: normal;
+  }
+
+  & li {
+    margin-right: 1rem;
+    display: inline-block;
+    text-align: center;
+    font-size: 20px;
+
+    & a:hover {
+      color: rgb(26, 170, 170);
+      transform: scale(1.05);
+    }
+  }
+}
+
